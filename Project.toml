@@ -1,0 +1,27 @@
+name = "YBusRevisited"
+uuid = "f2b44f59-bd65-481f-bf74-2da620d53d4b"
+authors = ["Hantao Cui"]
+version = "0.1.0"
+
+[deps]
+Andes = "93a26e3f-343a-4ab9-b467-a68c67574964"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+LinuxPerf = "b4c46c6c-4fb0-484d-a11a-41bc3392d094"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
+PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
+
+[compat]
+Andes = "0.2"
+DocStringExtensions = "0.8,0.9"
+julia = "^1.7"
+
+[extras]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "BenchmarkTools"]
