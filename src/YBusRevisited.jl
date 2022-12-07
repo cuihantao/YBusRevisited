@@ -4,7 +4,7 @@ module YBusRevisited
 using Andes
 using LoopVectorization
 using DocStringExtensions
-using PreallocationTools
+using PreallocationTools: dualcache
 
 using Base: @kwdef
 
